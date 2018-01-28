@@ -1,5 +1,7 @@
 from django.db import models
+
 from tk.users import models as user_models
+
 
 class TimeStampedModel(models.Model):
 

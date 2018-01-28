@@ -45,9 +45,11 @@ DJANGO_APPS = [
     'django.contrib.admin',
 ]
 THIRD_PARTY_APPS = [
+    'rest_framework',  # Rest framework
     'allauth',  # registration
     'allauth.account',  # registration
     'allauth.socialaccount',  # registration
+
 ]
 
 # Apps specific for this project go here.
