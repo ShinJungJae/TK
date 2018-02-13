@@ -58,6 +58,8 @@ LOCAL_APPS = [
     'tk.users.apps.UsersConfig',
     # Your stuff: custom apps go here
     'tk.images.apps.ImagesConfig',
+    'tk.boards.apps.BoardsConfig',
+
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

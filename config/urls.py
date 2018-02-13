@@ -15,6 +15,7 @@ urlpatterns = [
     # User management
     url(r'^users/', include('tk.users.urls', namespace='users')),
     url(r'^images/', include('tk.images.urls', namespace='images')),
+    url(r'^boards/', include('tk.boards.urls', namespace='boards')),
     url(r'^accounts/', include('allauth.urls')),
 
     # Your stuff: custom urls includes go here
